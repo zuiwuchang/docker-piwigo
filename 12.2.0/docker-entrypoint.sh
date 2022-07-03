@@ -12,7 +12,7 @@ if [[ -d "/data/piwigo" ]];then
 fi
 
 if [[ "$@" == "command-default" ]];then
-    exec runit
+    /opt/watch/watch -conf /opt/watch/list.json
 else
     exec "$@"
 fi

@@ -1,0 +1,17 @@
+[
+    {
+        "ID": "nginx",
+        "Name": "/usr/sbin/nginx",
+        "Args": [
+            "-g",
+            "daemon off;"
+        ]
+    },
+    {
+        "ID": "apache2",
+        "Name": "/usr/sbin/apachectl",
+        "Args": [
+            "-DFOREGROUND"
+        ]
+    }
+]

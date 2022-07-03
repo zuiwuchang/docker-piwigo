@@ -2,7 +2,7 @@
 set -e
 
 Command="build.sh"
-Version="12.2.0"
+Version="12.2.0-w"
 Tag="king011/piwigo:$Version"
 RunName="dev-piwigo"
 
